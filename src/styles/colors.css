@@ -291,3 +291,60 @@
 .text-info {
   color: var(--clr-info);
 }
+
+/* White Colors */
+.bg-white-100 { background-color: var(--clr-white-100); }
+.text-white-100 { color: var(--clr-white-100); }
+
+.bg-white-200 { background-color: var(--clr-white-200); }
+.text-white-200 { color: var(--clr-white-200); }
+
+.bg-white-300 { background-color: var(--clr-white-300); }
+.text-white-300 { color: var(--clr-white-300); }
+
+.bg-white-400 { background-color: var(--clr-white-400); }
+.text-white-400 { color: var(--clr-white-400); }
+
+.bg-white-500 { background-color: var(--clr-white-500); }
+.text-white-500 { color: var(--clr-white-500); }
+
+.bg-white-600 { background-color: var(--clr-white-600); }
+.text-white-600 { color: var(--clr-white-600); }
+
+.bg-white-700 { background-color: var(--clr-white-700); }
+.text-white-700 { color: var(--clr-white-700); }
+
+.bg-white-800 { background-color: var(--clr-white-800); }
+.text-white-800 { color: var(--clr-white-800); }
+
+.bg-white-900 { background-color: var(--clr-white-900); }
+.text-white-900 { color: var(--clr-white-900); }
+
+/* Black Colors */
+.bg-black-100 { background-color: var(--clr-black-100); }
+.text-black-100 { color: var(--clr-black-100); }
+
+.bg-black-200 { background-color: var(--clr-black-200); }
+.text-black-200 { color: var(--clr-black-200); }
+
+.bg-black-300 { background-color: var(--clr-black-300); }
+.text-black-300 { color: var(--clr-black-300); }
+
+.bg-black-400 { background-color: var(--clr-black-400); }
+.text-black-400 { color: var(--clr-black-400); }
+
+.bg-black-500 { background-color: var(--clr-black-500); }
+.text-black-500 { color: var(--clr-black-500); }
+
+.bg-black-600 { background-color: var(--clr-black-600); }
+.text-black-600 { color: var(--clr-black-600); }
+
+.bg-black-700 { background-color: var(--clr-black-700); }
+.text-black-700 { color: var(--clr-black-700); }
+
+.bg-black-800 { background-color: var(--clr-black-800); }
+.text-black-800 { color: var(--clr-black-800); }
+
+.bg-black-900 { background-color: var(--clr-black-900); }
+.text-black-900 { color: var(--clr-black-900); }
+
