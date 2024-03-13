@@ -1,13 +1,16 @@
-// components
+// routes, route
+import { Route, Routes } from "react-router-dom";
+// pages
+import { Home, NotFound } from "./pages";
 
-const App = () => {
+// component
+export default function App() {
   return (
-    <main className="min-h-100 grid-center">
-      <h1 className="fs-heading ff-inter fw-900 text-center p-1 br-1 bg-primary-800 mx-1">
-        Hooray! Welcome to the utlimate boiler plate.
-      </h1>
-    </main>
+    <Routes>
+      {/* Home Route */}
+      <Route path={"/"} element={<Home />} />
+      {/* Not Found Route */}
+      <Route path={"*"} element={<NotFound />} />
+    </Routes>
   );
-};
-
-export default App;
+}

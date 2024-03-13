@@ -10,7 +10,7 @@
   --clr-white-800: hsl(0, 0%, 95%);
   --clr-white-900: hsl(0, 0%, 100%);
 
-  /* White Colors */
+  /* Black Colors */
   --clr-black-100: hsl(0, 0%, 40%);
   --clr-black-200: hsl(0, 0%, 35%);
   --clr-black-300: hsl(0, 0%, 30%);
@@ -22,26 +22,26 @@
   --clr-black-900: hsl(0, 0%, 0%);
 
   /* Primary Colors */
-  --clr-primary-100: hsl(210, 100%, 50%);
-  --clr-primary-200: hsl(210, 100%, 45%);
-  --clr-primary-300: hsl(210, 100%, 40%);
-  --clr-primary-400: hsl(210, 100%, 35%);
-  --clr-primary-500: hsl(210, 100%, 30%);
-  --clr-primary-600: hsl(210, 100%, 25%);
-  --clr-primary-700: hsl(210, 100%, 20%);
-  --clr-primary-800: hsl(210, 100%, 15%);
-  --clr-primary-900: hsl(210, 100%, 10%);
+  --clr-primary-100: hsl(212, 62%, 55%);
+  --clr-primary-200: hsl(212, 62%, 50%);
+  --clr-primary-300: hsl(212, 62%, 45%);
+  --clr-primary-400: hsl(212, 62%, 40%);
+  --clr-primary-500: hsl(212, 62%, 35%);
+  --clr-primary-600: hsl(212, 62%, 30%);
+  --clr-primary-700: hsl(212, 62%, 25%);
+  --clr-primary-800: hsl(212, 62%, 20%);
+  --clr-primary-900: hsl(212, 62%, 15%);
 
   /* Secondary Colors */
-  --clr-secondary-100: hsl(45, 100%, 90%);
-  --clr-secondary-200: hsl(45, 100%, 80%);
-  --clr-secondary-300: hsl(45, 100%, 70%);
-  --clr-secondary-400: hsl(45, 100%, 60%);
-  --clr-secondary-500: hsl(45, 100%, 50%);
-  --clr-secondary-600: hsl(45, 100%, 40%);
-  --clr-secondary-700: hsl(45, 100%, 30%);
-  --clr-secondary-800: hsl(45, 100%, 20%);
-  --clr-secondary-900: hsl(45, 100%, 10%);
+  --clr-secondary-100: hsl(27, 85%, 79%);
+  --clr-secondary-200: hsl(27, 85%, 74%);
+  --clr-secondary-300: hsl(27, 85%, 69%);
+  --clr-secondary-400: hsl(27, 85%, 64%);
+  --clr-secondary-500: hsl(27, 85%, 59%);
+  --clr-secondary-600: hsl(27, 85%, 54%);
+  --clr-secondary-700: hsl(27, 85%, 49%);
+  --clr-secondary-800: hsl(27, 85%, 44%);
+  --clr-secondary-900: hsl(27, 85%, 39%);
 
   /* Accent Colors */
   --clr-accent-100: hsl(300, 100%, 90%);
@@ -293,58 +293,129 @@
 }
 
 /* White Colors */
-.bg-white-100 { background-color: var(--clr-white-100); }
-.text-white-100 { color: var(--clr-white-100); }
+.bg-white-100 {
+  background-color: var(--clr-white-100);
+}
+.text-white-100 {
+  color: var(--clr-white-100);
+}
 
-.bg-white-200 { background-color: var(--clr-white-200); }
-.text-white-200 { color: var(--clr-white-200); }
+.bg-white-200 {
+  background-color: var(--clr-white-200);
+}
+.text-white-200 {
+  color: var(--clr-white-200);
+}
 
-.bg-white-300 { background-color: var(--clr-white-300); }
-.text-white-300 { color: var(--clr-white-300); }
+.bg-white-300 {
+  background-color: var(--clr-white-300);
+}
+.text-white-300 {
+  color: var(--clr-white-300);
+}
 
-.bg-white-400 { background-color: var(--clr-white-400); }
-.text-white-400 { color: var(--clr-white-400); }
+.bg-white-400 {
+  background-color: var(--clr-white-400);
+}
+.text-white-400 {
+  color: var(--clr-white-400);
+}
 
-.bg-white-500 { background-color: var(--clr-white-500); }
-.text-white-500 { color: var(--clr-white-500); }
+.bg-white-500 {
+  background-color: var(--clr-white-500);
+}
+.text-white-500 {
+  color: var(--clr-white-500);
+}
 
-.bg-white-600 { background-color: var(--clr-white-600); }
-.text-white-600 { color: var(--clr-white-600); }
+.bg-white-600 {
+  background-color: var(--clr-white-600);
+}
+.text-white-600 {
+  color: var(--clr-white-600);
+}
 
-.bg-white-700 { background-color: var(--clr-white-700); }
-.text-white-700 { color: var(--clr-white-700); }
+.bg-white-700 {
+  background-color: var(--clr-white-700);
+}
+.text-white-700 {
+  color: var(--clr-white-700);
+}
 
-.bg-white-800 { background-color: var(--clr-white-800); }
-.text-white-800 { color: var(--clr-white-800); }
+.bg-white-800 {
+  background-color: var(--clr-white-800);
+}
+.text-white-800 {
+  color: var(--clr-white-800);
+}
 
-.bg-white-900 { background-color: var(--clr-white-900); }
-.text-white-900 { color: var(--clr-white-900); }
+.bg-white-900 {
+  background-color: var(--clr-white-900);
+}
+.text-white-900 {
+  color: var(--clr-white-900);
+}
 
 /* Black Colors */
-.bg-black-100 { background-color: var(--clr-black-100); }
-.text-black-100 { color: var(--clr-black-100); }
+.bg-black-100 {
+  background-color: var(--clr-black-100);
+}
+.text-black-100 {
+  color: var(--clr-black-100);
+}
 
-.bg-black-200 { background-color: var(--clr-black-200); }
-.text-black-200 { color: var(--clr-black-200); }
+.bg-black-200 {
+  background-color: var(--clr-black-200);
+}
+.text-black-200 {
+  color: var(--clr-black-200);
+}
 
-.bg-black-300 { background-color: var(--clr-black-300); }
-.text-black-300 { color: var(--clr-black-300); }
+.bg-black-300 {
+  background-color: var(--clr-black-300);
+}
+.text-black-300 {
+  color: var(--clr-black-300);
+}
 
-.bg-black-400 { background-color: var(--clr-black-400); }
-.text-black-400 { color: var(--clr-black-400); }
+.bg-black-400 {
+  background-color: var(--clr-black-400);
+}
+.text-black-400 {
+  color: var(--clr-black-400);
+}
 
-.bg-black-500 { background-color: var(--clr-black-500); }
-.text-black-500 { color: var(--clr-black-500); }
+.bg-black-500 {
+  background-color: var(--clr-black-500);
+}
+.text-black-500 {
+  color: var(--clr-black-500);
+}
 
-.bg-black-600 { background-color: var(--clr-black-600); }
-.text-black-600 { color: var(--clr-black-600); }
+.bg-black-600 {
+  background-color: var(--clr-black-600);
+}
+.text-black-600 {
+  color: var(--clr-black-600);
+}
 
-.bg-black-700 { background-color: var(--clr-black-700); }
-.text-black-700 { color: var(--clr-black-700); }
+.bg-black-700 {
+  background-color: var(--clr-black-700);
+}
+.text-black-700 {
+  color: var(--clr-black-700);
+}
 
-.bg-black-800 { background-color: var(--clr-black-800); }
-.text-black-800 { color: var(--clr-black-800); }
+.bg-black-800 {
+  background-color: var(--clr-black-800);
+}
+.text-black-800 {
+  color: var(--clr-black-800);
+}
 
-.bg-black-900 { background-color: var(--clr-black-900); }
-.text-black-900 { color: var(--clr-black-900); }
-
+.bg-black-900 {
+  background-color: var(--clr-black-900);
+}
+.text-black-900 {
+  color: var(--clr-black-900);
+}
